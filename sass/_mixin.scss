@@ -1,0 +1,22 @@
+@mixin buttons{
+     display: block;
+
+        margin: auto;
+        margin-top: 40px;
+        color: $text-white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 150px;
+        background-color: #000000;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 95px;
+        font-size: 18px;
+
+        &:hover {
+            background-color: #aaa;
+            color: $text-black;
+        }
+}

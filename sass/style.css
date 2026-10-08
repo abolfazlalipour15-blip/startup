@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  background-color: #f44336;
+  box-shadow: 0.5px 0.5px 5px rgb(88, 88, 88);
+  color: #f1f1f1;
+}
+nav A {
+  color: white !important;
+}
+nav A:hover {
+  color: #000000 !important;
+  background-color: white;
+}
+
+header {
+  background-color: #f44336;
+  padding: 50px;
+}
+header h1 {
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 65px;
+}
+header p {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 25px;
+  margin-top: 30px;
+}
+header a {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  color: #f1f1f1;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 150px;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 95px;
+  font-size: 18px;
+}
+header a:hover {
+  background-color: #aaa;
+  color: #000000;
+}
+
+main {
+  margin-top: 150px;
+}
+main section {
+  margin-top: 50px;
+}
+main section div i {
+  font-size: 200px;
+  color: #f44336;
+  margin: 50px;
+}
+
+#main-first {
+  width: 70%;
+}
+
+#sec-1 div i {
+  padding-left: 60px;
+}
+
+#sec-2 {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+#sec-2 i {
+  margin: 50px;
+}
+
+footer {
+  background-color: rgb(104, 103, 103);
+  font-size: 30px;
+}
+
+#adress {
+  text-align: center;
+  padding-top: 100px;
+}
+#adress i {
+  font-size: 25px;
+  padding: 3px;
+  color: #252525;
+  cursor: pointer;
+}
+#adress i:hover {
+  color: #a19e9e;
+}
+#adress p {
+  padding: 50px 0px;
+}
+#adress p a {
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,127 @@
+@import 'vars';
+@import "mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonts;
+}
+
+nav {
+    background-color: $bg-primary;
+    box-shadow: .5px .5px 5px rgb(88, 88, 88);
+    //    position: fixed;
+    //    width: 100%;
+    //    z-index: 1;
+    color: $text-white;
+
+    
+
+    A {color: white !important;
+        &:hover {
+            color: #000000 !important;
+            background-color: white;
+        }
+    }
+}
+
+
+
+header {
+    background-color: $bg-primary;
+    padding: $p-5;
+
+    h1 {
+        color: $text-white;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 65px;
+    }
+
+    p {
+        text-align: center;
+        color: $text-white;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    a {
+       @include buttons;
+    }
+}
+
+main {
+    margin-top: 150px;
+
+
+    section {
+        margin-top: $p-5;
+
+        div {
+
+            i {
+                font-size: $size-larg;
+                color: $bg-primary;
+                margin: $p-5;
+            }
+        }
+    }
+}
+
+#main-first {
+
+    width: 70%;
+}
+
+#main-second {}
+
+#sec-1 {
+
+
+    div {
+        i {
+            padding-left: 60px;
+
+        }
+    }
+}
+
+#sec-2 {
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+
+    i {
+        margin: 50px;
+    }
+}
+
+footer {
+    background-color: rgb(104, 103, 103);
+    font-size: 30px;
+}
+
+#adress {
+    text-align: center;
+    padding-top: 100px;
+
+    i {
+        font-size: 25px;
+        padding: 3px;
+        color: #252525;
+        cursor: pointer;
+
+        &:hover {
+            color: #a19e9e;
+        }
+    }
+
+    p {
+        padding: 50px 0px;
+
+        a {
+            color: #000000;
+        }
+    }
+}
